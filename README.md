@@ -1,10 +1,10 @@
-# 🐂 Dungeon Minotauro
+#  Dungeon Minotauro
 
 Um jogo de aventura em **Swift**, totalmente em modo texto, onde você explora uma dungeon repleta de criaturas perigosas e enfrenta o poderoso **Minotauro**.
 
 ---
 
-## 📜 Sobre o Jogo
+##  Sobre o Jogo
 
 Dungeon Minotauro é um RPG simples inspirado em mecânicas de rolagem de dados como D20.  
 O objetivo é explorar salas, derrotar inimigos, melhorar seu ataque e chegar ao grande chefe da dungeon.
@@ -20,17 +20,17 @@ Você poderá:
 
 ---
 
-## 🕹️ Como Jogar
+##  Como Jogar
 
 Durante o jogo, você usará comandos de texto:
 
-### 🎯 Durante o combate
+###  Durante o combate
 | Ação | Comando |
 |------|---------|
 | Atacar | `atacar` |
 | Fugir | `fugir` |
 
-### 🧭 Movimentação
+###  Movimentação
 | Direção | Comando |
 |---------|----------|
 | Norte | `norte` |
@@ -38,9 +38,9 @@ Durante o jogo, você usará comandos de texto:
 | Leste | `leste` |
 | Oeste | `oeste` |
 
-### ❌ Sair do jogo
+###  Sair do jogo
 
-### 🎲 Sistema de Combate (D20)
+###  Sistema de Combate (D20)
 - **20** → Acerto crítico (dano dobrado)
 - **1** → Falha crítica (inimigo causa dano extra)
 - Valores normais → ataque comum
@@ -49,7 +49,7 @@ Ao derrotar inimigos (exceto o boss), seu ataque aumenta em **+1**.
 
 ---
 
-## 🧱 Estrutura da Dungeon
+##  Estrutura da Dungeon
 
 As salas presentes no jogo:
 
@@ -69,28 +69,28 @@ Cada sala possui:
 
 ---
 
-## ⚔️ Inimigos
+##  Inimigos
 
 Os inimigos presentes são:
 
-- 🧌 **Goblin**
-- 💀 **Esqueleto**
-- 🕷️ **Aranha**
-- 👻 **Sombra**
-- 🐂 **Minotauro** (chefe final)
+-  **Goblin**
+-  **Esqueleto**
+-  **Aranha**
+-  **Sombra**
+-  **Minotauro** (chefe final)
 
 Cada um com vida, ataque e bônus de fuga próprios.
 
 ---
 
-## 🚀 Como Executar o Projeto
+##  Como Executar o Projeto
 
-### ▶️ Pelo Xcode
+###  Pelo Xcode
 1. Abra o projeto.
 2. Certifique-se de que o arquivo `main.swift` está na *target* ativa.
 3. Clique em **Run**.
 
-### ▶️ Pelo Terminal
+###  Pelo Terminal
 Se você tiver apenas o arquivo:
 
 ```sh
